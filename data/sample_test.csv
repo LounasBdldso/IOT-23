@@ -1,0 +1,11 @@
+proto,service,duration,orig_bytes,resp_bytes,conn_state,missed_bytes,orig_pkts,orig_ip_bytes,resp_ip_bytes,label
+tcp,-,0.0,0.0,0.0,S0,0.0,1.0,40.0,0.0,Scan_Attack
+tcp,-,1e-06,0.0,0.0,S0,0.0,2.0,80.0,0.0,DDoS
+tcp,-,0.0,0.0,0.0,S0,0.0,1.0,40.0,0.0,Malware_Okiru
+tcp,-,0.0,0.0,0.0,OTH,0.0,0.0,0.0,0.0,DDoS
+tcp,-,2e-06,0.0,0.0,S0,0.0,2.0,80.0,0.0,Scan_Attack
+tcp,-,0.0,0.0,0.0,S0,0.0,1.0,40.0,0.0,Scan_Attack
+tcp,-,2e-06,0.0,0.0,S0,0.0,2.0,80.0,0.0,Malware_Okiru
+tcp,-,0.0,0.0,0.0,S0,0.0,1.0,40.0,0.0,Malware_Okiru
+tcp,-,0.0,0.0,0.0,OTH,0.0,0.0,0.0,0.0,DDoS
+tcp,-,5e-06,0.0,0.0,S0,0.0,2.0,80.0,0.0,Scan_Attack

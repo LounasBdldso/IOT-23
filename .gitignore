@@ -1,0 +1,10 @@
+# On ignore tout le contenu du dossier data
+data/*
+
+# Sauf ce fichier spécifique
+!data/sample_test.csv
+
+# On ignore aussi les autres fichiers inutiles
+__pycache__/
+.venv/
+.DS_Store
